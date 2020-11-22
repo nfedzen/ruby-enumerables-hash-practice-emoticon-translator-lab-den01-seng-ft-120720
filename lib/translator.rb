@@ -9,7 +9,6 @@ def load_library(file)
     
   end
   binding.pry
-  new_hash
 end
 
 def get_japanese_emoticon
