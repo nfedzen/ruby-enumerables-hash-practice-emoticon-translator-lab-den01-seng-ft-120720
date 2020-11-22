@@ -5,7 +5,7 @@ def load_library(file)
   # code goes here
   library = YAML.load(File.read(file))
   library.each_with_object({}) do |(key,value), new_hash|
-    
+    new_hash[key]
   end
   binding.pry
   new_hash
