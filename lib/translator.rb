@@ -10,7 +10,7 @@ def load_library(file)
       new_hash[key] = {}
     end
   end
-  #binding.pry
+  binding.pry
   new_hash
 end
 
