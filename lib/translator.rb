@@ -14,7 +14,6 @@ def load_library(file)
       end
     end
   end
-  binding.pry
   final_library
 end
 
