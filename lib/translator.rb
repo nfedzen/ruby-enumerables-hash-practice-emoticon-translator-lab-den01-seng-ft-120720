@@ -24,7 +24,7 @@ def get_japanese_emoticon(file,emoticon)
   library.each do |key,value|
     value.select do |language,emoji|
       if emoji == emoticon
-        meaning = key.to_s
+        meaning = library[key][:english]
       end
     end
   end
