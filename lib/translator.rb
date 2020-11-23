@@ -29,6 +29,7 @@ def get_english_meaning(file,emoticon)
     value.select do |language,emoji|
       if emoji == emoticon
         meaning = key.to_s
+      end
     end
   end
   meaning
