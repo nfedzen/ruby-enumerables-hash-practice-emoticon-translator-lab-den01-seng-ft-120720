@@ -33,5 +33,5 @@ def get_english_meaning(file,emoticon)
     end
   end
   meaning
-  binding.pry
+  #binding.pry
 end
