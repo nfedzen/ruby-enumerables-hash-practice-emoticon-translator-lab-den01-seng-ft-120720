@@ -13,8 +13,8 @@ def load_library(file)
         new_hash[key][:japanese] = emoji
       end
     end
-    binding.pry
   end
+  binding.pry
   final_library
 end
 
